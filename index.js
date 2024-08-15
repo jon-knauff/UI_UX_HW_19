@@ -14,3 +14,16 @@ document.querySelectorAll('.audio-button').forEach(button => {
         audio.play();
     });
 });
+
+let popup = document.getElementById("popup");
+let overlay = document.getElementById("overlay");
+
+function openPopup() {
+    popup.classList.add("open-popup");
+    overlay.style.display = "block";
+}
+
+function closePopup() {
+    popup.classList.remove("open-popup");
+    overlay.style.display = "none";
+}
