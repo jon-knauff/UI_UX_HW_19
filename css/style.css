@@ -209,6 +209,11 @@ body {
 .mySkills {
     color:white;
 }
+
+hr {
+    width:50%;
+    margin: 0 auto;
+}
 .accomp{
     justify-content:center;
     margin:0 auto;
