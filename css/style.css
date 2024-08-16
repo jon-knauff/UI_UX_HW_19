@@ -41,6 +41,7 @@ a:hover{
     top:0;
     left:0;
     margin:15px;
+    padding-left:50px;
 
 }
 .top {
@@ -155,6 +156,7 @@ body {
     position:fixed;
     top:0;
     right:0;
+    padding-right:50px;
 }
 .burger {
     text-align:right;
@@ -213,6 +215,7 @@ body {
 hr {
     width:50%;
     margin: 0 auto;
+
 }
 .accomp{
     justify-content:center;
@@ -351,6 +354,7 @@ button:active {
     }
     .logo {
         position:absolute;
+        padding-left:10px;
         
     }
     .button {
